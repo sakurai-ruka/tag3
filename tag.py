@@ -73,7 +73,7 @@ def flat_and_extract_tag_pos(in_str):
         elif tag_name =="e":
             in_e = ncou
             out_e = cou
-            print("eは"+str(in_r)+"-"+str(out_r)+"文字目")
+            print("eは"+str(in_e)+"-"+str(out_e)+"文字目")
         #print("eはn-n番目")
         out_str = ""
     return out_str,info_dict
